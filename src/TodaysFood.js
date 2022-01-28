@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const TodayFood = ({ data }) => {
   const total = data.reduce((a, o) => o.calories + a, 0);
